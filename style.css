@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
     font-family: 'Raleway', sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
     text-decoration: none;
 }
@@ -74,21 +77,24 @@ nav .search {
 
     article h2,
     h3 {
-        text-align: center;
-        text-decoration: none;
         line-height: 35px;
         font-family: 'Montserrat', sans-serif;
         font-size: 1.5rem;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
         color: transparent;
         background-color: #FF3CAC;
         background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
         -webkit-background-clip: text;
     }
 
+}
+
+h2, h3 {
+    display: inline;
+    margin-left: 37%;
+}
+
+h3 {
+    margin-left: 47%;
 }
 
 h2:hover {
