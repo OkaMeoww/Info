@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Raleway', sans-serif;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -12,6 +11,7 @@
 body {
     background-color: #FAACA8;
     background-image: linear-gradient(0deg, #ebc0fd 0%, #d9ded8 200%);
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .container {
@@ -29,6 +29,7 @@ header img {
 nav {
     height: 35px;
     background-color: #3E374E;
+    font-family: 'Raleway', sans-serif;
 }
 
 nav .menu ul {
@@ -37,7 +38,6 @@ nav .menu ul {
 
 nav .menu ul li {
     float: left;
-    font-style: unset;
     line-height: 33px;
     padding: 0px 20px;
     margin-left: 20px;
