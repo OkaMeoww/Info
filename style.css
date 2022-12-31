@@ -8,11 +8,18 @@
     text-decoration: none;
 }
 
-body {
+html {
     font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     background-color: #FAACA8;
     background-image: linear-gradient(0deg, #ebc0fd 0%, #d9ded8 200%);
-    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .container {
@@ -39,8 +46,8 @@ nav .menu ul {
 
 nav .menu ul li {
     float: left;
-    line-height: 2.7;
-    padding: 0px 20px;
+    line-height: 2.1;
+    padding: 0px 15px;
     margin-left: 20px;
 }
 
@@ -56,12 +63,12 @@ nav .menu ul li a:active {
 nav .menu ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
 }
 
 nav .search {
     float: right;
-    line-height: 3.7;
+    line-height: 2.1;
     margin-right: 50px;
 }
 
@@ -80,7 +87,7 @@ nav .search {
     h3 {
         line-height: 1.5;
         font-family: 'Montserrat', sans-serif;
-        font-size: 1.5rem;
+        font-size: 2.4rem;
         color: transparent;
         background-color: #FF3CAC;
         background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
@@ -92,6 +99,7 @@ nav .search {
 h2, h3 {
     display: inline;
     margin-left: 37%;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.705);
 }
 
 h3 {
@@ -121,16 +129,18 @@ article .story {
 article .story .content h5 {
     user-select: none;
     font-style: italic;
-    font-size: 0.9rem;
+    font-size: 1.4rem;
+    text-shadow: 3px 3px 10px rgb(0, 0, 0);
 }
 
 pre {
     letter-spacing: -1px;
+    word-spacing: -1px;
 }
 
 article .story .content ul li {
     list-style-type: circle;
-    font-size: 1.0rem;
+    font-size: 1.6rem;
 }
 
 article .story .content #ngu {
@@ -155,7 +165,7 @@ article .story:last-child {
 
 article .story .content p {
     margin-bottom: 60%;
-    font-size: 1.0rem;
+    font-size: 1.6rem;
 
 }
     
@@ -167,7 +177,7 @@ article .story img {
 }
 
 .face, .linkhd {
-    font-size: 1.1rem;
+    font-size: 1.7rem;
 }
 
 article .story .face:last-child {
@@ -189,7 +199,8 @@ iframe {
 article .story h4 {
     user-select: none;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 2.3rem;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.596);
     padding-bottom: 10px;
     color: transparent;
     background-image: linear-gradient( 83.2deg,  rgba(150,93,233,1) 10.8%, rgba(99,88,238,1) 94.3% );
@@ -205,7 +216,7 @@ footer {
     text-align: center;
     font-weight: 500;
     margin-top: 10px;
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     font-family: 'Montserrat', sans-serif;
     user-select: none;
 }
