@@ -23,15 +23,12 @@ body {
 }
 
 .container {
-    width: 980px;
+    width: 1000px;
     margin: 0 auto;
 }
 
 header img {
     margin-top: -50px;
-    margin-left: 20px;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
 }
 
 nav {
@@ -73,8 +70,8 @@ nav .search {
 }
 
 .avatar {
-    width: 150px;
-    height: 150px;
+    width: 169px;
+    height: 169px;
     background: url(https://lh3.googleusercontent.com/a/AEdFTp6gS9GPHAEtSbXMCJ35U0NWhKNkHE5_0y6gdAbahQ=s288-p-rw-no) 50% 90%;
     border: 5px solid violet;
     border-radius: 50%;
@@ -170,8 +167,7 @@ article .story .content p {
 }
     
 article .story img {
-    width: 250px;
-    height: 250px;
+    max-width: 100%;
     margin: 10px auto;
     border: 3px solid violet;
 }
@@ -189,8 +185,8 @@ article .story .face:last-child {
 }
 
 iframe {
-    width: 250px;
-    height: 250px;
+    width: 260px;
+    height: 260px;
     margin: 10px auto;
     border: 3px solid violet;
     
