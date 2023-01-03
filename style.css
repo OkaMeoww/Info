@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-    width: 1000px;
+    max-width: 980px;
     margin: 0 auto;
 }
 
@@ -44,8 +44,7 @@ nav .menu ul {
 nav .menu ul li {
     float: left;
     line-height: 2.1;
-    padding: 0px 15px;
-    margin-left: 20px;
+    padding: 0px 20px;
 }
 
 nav .menu ul li a:hover {
@@ -57,10 +56,10 @@ nav .menu ul li a:active {
     color: yellow;
 }
 
-nav .menu ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.5rem;
+nav .menu ul li a i {
+    font-size: 2.1rem;
+    line-height: 1.5;
+    margin-left: 10px;
 }
 
 nav .search {
@@ -76,6 +75,13 @@ nav .search {
     border: 5px solid violet;
     border-radius: 50%;
     margin: 10px auto;
+}
+
+@media print {
+    body {
+        print-color-adjust: exact !important;
+        -webkit-print-color-adjust: exact !important;
+    }
 }
 
 @supports (-webkit-background-clip: text) or (background-clip: text) {
@@ -113,8 +119,8 @@ h3:hover {
 }
 
 article .story {
-    width: 26%;
-    height: 550px;
+    max-width: 26%;
+    height: 555px;
     padding: 3%;
     line-height: 1.6;
     border: 3px solid rgba(238, 130, 238, 0.493);
