@@ -27,11 +27,20 @@ body {
     margin: 0 auto;
 }
 
+header {
+    width: 980px;
+    height: 104px;
+    background: rgba(255, 255, 255, 0.2);
+    position: fixed;
+    top: 0;
+}
+
 header img {
     margin-top: -50px;
 }
 
 nav {
+    margin-top: 103px;
     height: 35px;
     background-color: #3E374E;
     font-family: 'Raleway', sans-serif;
@@ -58,7 +67,7 @@ nav .menu ul li a:active {
 
 nav .menu ul li a i {
     font-size: 2.1rem;
-    line-height: 1.5;
+    line-height: 1.7;
     margin-left: 10px;
 }
 
