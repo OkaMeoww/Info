@@ -224,23 +224,13 @@ article .story h4:hover {
 }
 
 footer {
-    height: 40px;
+    height: 65px;
     text-align: center;
     font-weight: 500;
     margin-top: 10px;
     font-size: 2.4rem;
     font-family: 'Montserrat', sans-serif;
     user-select: none;
-}
-
-.nosup {
-    text-align: center;
-    margin-top: 15px;
-    font-size: 1.7rem;
-}
-
-.nosup:hover {
-    color:#FAACA8;
 }
 
 footer:hover {
