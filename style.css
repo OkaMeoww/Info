@@ -224,6 +224,16 @@ footer {
     user-select: none;
 }
 
+.nosup {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.7rem;
+}
+
+.nosup:hover {
+    color:#FAACA8;
+}
+
 footer:hover {
     color: pink;
 }
