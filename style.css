@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-    max-width: 980px;
+    width: 980px;
     margin: 0 auto;
 }
 
@@ -128,7 +128,7 @@ h3:hover {
 }
 
 article .story {
-    max-width: 26%;
+    width: 26%;
     height: 555px;
     padding: 3.1%;
     line-height: 1.6;
@@ -182,7 +182,7 @@ article .story .content p {
 }
     
 article .story img {
-    max-width: 100%;
+    width: 100%;
     margin: 10px auto;
     border: 2px solid violet;
 }
@@ -200,7 +200,7 @@ article .story .face:last-child {
 }
 
 iframe {
-    max-width: 100%;
+    width: 100%;
     height: 257px;
     margin: 0px auto;
     margin: 10px auto;
@@ -224,7 +224,7 @@ article .story h4:hover {
 }
 
 footer {
-    height: 65px;
+    height: 35px;
     text-align: center;
     font-weight: 500;
     margin-top: 10px;
