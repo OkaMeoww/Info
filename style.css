@@ -87,6 +87,10 @@ nav .search {
     margin: 10px auto;
 }
 
+.avatar:hover {
+    background: url(./images/avt.jpg);
+}
+
 @media print {
     body {
         print-color-adjust: exact !important;
